@@ -1,0 +1,42 @@
+\begin{thebibliography}{1}
+\providecommand{\bibauthor}[1]{#1}
+\providecommand{\bibeditor}[1]{#1}
+\providecommand{\bibtranslator}[1]{#1}
+\providecommand{\bibtitle}[1]{#1}
+\providecommand{\bibbooktitle}[1]{#1}
+\providecommand{\bibjournal}[1]{#1}
+\providecommand{\bibmark}[1]{#1}
+\providecommand{\bibcountry}[1]{#1}
+\providecommand{\bibpatentid}[1]{#1}
+\providecommand{\bibedition}[1]{#1}
+\providecommand{\biborganization}[1]{#1}
+\providecommand{\bibaddress}[1]{#1}
+\providecommand{\bibpublisher}[1]{#1}
+\providecommand{\bibinstitution}[1]{#1}
+\providecommand{\bibschool}[1]{#1}
+\providecommand{\bibvolume}[1]{#1}
+\providecommand{\bibnumber}[1]{#1}
+\providecommand{\bibversion}[1]{#1}
+\providecommand{\bibpages}[1]{#1}
+\providecommand{\bibmodifydate}[1]{#1}
+\providecommand{\bibcitedate}[1]{#1}
+\providecommand{\bibyear}[1]{#1}
+\providecommand{\bibdate}[1]{#1}
+\providecommand{\biburl}[1]{\newline\url{#1}}
+
+\bibitem{1}
+\bibauthor{RAM{\'I}REZ-GALLEGO S\@, GARC{\'I}A S\@, MOURI{\~N}O-TAL{\'I}N H,
+  et~al}\@. \bibtitle{Data discretization: taxonomy and big data
+  challenge}\bibmark{[J]}\@. \bibjournal{Wiley Interdisciplinary Reviews: Data
+  Mining and Knowledge Discovery}\@, \bibyear{2016}\@,
+  \bibvolume{6}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{5\thinspace{}\textnormal{--}\thinspace{}21}\@.
+
+\bibitem{2}
+\bibauthor{董跃华\@, 刘力}\@.
+  \bibtitle{基于自适应改进粒子群优化的数据离散化算法}\bibmark{[J]}\@.
+  \bibjournal{计算机应用}\@, \bibyear{2016}\@,
+  \bibvolume{26}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{188\thinspace{}\textnormal{--}\thinspace{}193}\@.
+
+\end{thebibliography}

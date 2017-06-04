@@ -1,0 +1,119 @@
+%h%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%LaTeX 简短的论文期刊模板                   
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper,onecolumn,twoside]{article}
+\input{template.cls}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%文章
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}  
+
+            % \maketitle%生成标题  
+    \thispagestyle{plain}
+             \vspace{-3em}
+            \begin{center}
+              \parbox{\textwidth}{
+                \begin{center}
+                  {\sanhao{\textbf{××××××论文题目×××××}}}\\
+                \vspace{3pt}
+                  \vspace{-0.0cm}
+                \end{center}
+                \begin{center}
+                  \textbf{张三$^1$, 李四$^2$}\\[2pt]
+                  \small{(1××学院，江西南昌 330031；2中心，江西南昌 330001；)}\\[2pt]
+                \end{center}
+                {\small{\textbf{摘~要：}这是一个中文模板，在本块添加中文摘要。
+                \\
+                
+                \textbf{关键字：}模板；Latex\\
+                \textbf{文献标志码：}A \hspace{4cm} \textbf{中国分类号：}TP18
+              }}
+
+              }
+            \end{center}
+
+
+            \begin{center}
+              \parbox{\textwidth}{
+                \begin{center}
+                  {\sanhao{\textbf{××××××××××××Title×××××××××}}}\\
+                  \vspace{-0.0cm}
+                \end{center}
+                \begin{center}
+                  \textbf{Zhang San$^1$,Li Si$^2$;}\\[2pt]
+                  \small{(1 School of ××××××, Nanchang 330031, Jiangxi;2 The
+                  Jiangxi Province ××××××××, Nanchang 330000, Jiangxi)}\\[2pt]
+                \end{center}
+                {\small{\textbf{Abstract:}\quad This is template of chiese
+                Journal Paper
+                \\
+                \textbf{Keywords}\quad template；Latex}}
+              }
+            \end{center}
+
+            \noindent{\footnote{\noindent {\textbf{收稿日期}：2017-05-30；\textbf{修回日期}
+          ：}
+          2017-07-16\\ 
+          \textbf{基金项目}：国家自然科学基金资助（610****3，8*****69），江西省
+          科技计划项目(No. 2011*******87)\\ \textbf{作者简介
+          }：
+        张三（1992-），男，硕士研究生，主研：智能信息处理、大数据应用；李四，
+      男，硕士，高级工程师，主研：气象通讯技术，计算机应用技术；}.
+      }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      %正文部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{multicols}{2}
+\section{引言}
+文献 \cite{1}可以看出×××,文献 \cite{2}得到的结论是××××。 
+\section{相关理论介绍}     
+\subsection{*****}
+\subsection{单栏图} 
+        \begin{center}
+
+          \includegraphics[width=0.4\textwidth]{template.png}\\
+          \captionof{figure}{\song{模版图}}\label{fig1}
+
+        \end{center}
+
+\subsection{过程介绍}
+\section{算法的测试与结果分析}
+\subsection{测试数据与环境介绍}
+\subsubsection{测试1:单栏表格}
+你看到的是单栏复杂表格绘制。\\
+        \begin{center}
+          \captionof{table}{××××××}\label{tab:tabset2}
+      %    \caption{示例表格}\label{tab:test}
+          \begin{tabular}{cccc}
+            \toprule
+            \multirow{2}{*}{比较指标}& \multirow{2}{*}{数据集} &
+            \multicolumn{2}{c}{***算法} \\
+            \cline{3-4}
+         & & xx & 改进的XX \\
+            \midrule
+            \multirow{4}{*}{精度\%}& D\_Set\_1 & 0.48 & 7.34 \\
+            & D\_Set\_2 & 6.33 & 67.42 \\
+            & D\_Set\_3 & 6.35& 7.30 \\
+            & D\_Set1 & 6.45 & 7.21 \\
+            \bottomrule
+          \end{tabular}
+        \end{center}
+\par
+
+\subsubsection{测试2:}
+\subsubsection{测试3:}
+  \renewcommand\refname{参考文献}
+  
+  \xiaowuhao{
+  \bibliographystyle{gbt7714-2005}
+  \bibliography{thesis-ref} 
+  \setlength{\itemsep}{- 2mm}
+}
+
+\clearpage
+\end{multicols}
+
+\end{document}
+

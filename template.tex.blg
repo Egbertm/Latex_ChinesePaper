@@ -1,0 +1,5 @@
+[1] Config.pm:343> INFO - This is Biber 2.5
+[1] Config.pm:346> INFO - Logfile is 'template.tex.blg'
+[72] biber:290> INFO - === 一 5月 29, 2017, 15:57:12
+[170] Utils.pm:165> ERROR - Cannot find control file 'template.tex.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
+[170] Biber.pm:112> INFO - ERRORS: 1
